@@ -1,0 +1,31 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.carouselExampleIndicators {
+    width: 100%;
+    height: 1080px;
+    margin-top: 56px;
+    padding: 0;
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.carousel-inner .carousel-item img {
+    object-fit: cover; /* Ensure images cover the entire carousel */
+    height: 100%; /* Make images fill the entire carousel height */
+    width: 100%; /* Make images fill the entire carousel width */
+}
+
+.h1 {
+    font-size: 300px;
+    text-align: left;
+}
+
