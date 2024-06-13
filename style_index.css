@@ -16,10 +16,21 @@ body {
     margin-top: 56px;
     padding: 0;
     overflow: hidden;
-    /* Hide any overflow content */
 }
 
 .h1 {
     font-size: 300px;
     text-align: left;
 }
+
+.carousel-item {
+    height: 100vh; /* Full viewport height */
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+

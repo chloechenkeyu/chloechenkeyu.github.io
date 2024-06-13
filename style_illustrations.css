@@ -16,10 +16,29 @@ body {
     margin-top: 56px;
     padding: 0;
     overflow: hidden;
-    /* Hide any overflow content */
 }
 
 .h1 {
     font-size: 300px;
     text-align: left;
+}
+
+.container {
+    display: flex;
+}
+
+.container .img-fluid:first-child {
+    width: 100%;
+}
+
+.img-fluid {
+    transition: all .3s;
+}
+
+/*.img-fluid:hover {
+    width: 50%;
+}*/
+
+.container:hover .img-fluid:not(:hover) {
+    transform: scale(0.9);
 }
